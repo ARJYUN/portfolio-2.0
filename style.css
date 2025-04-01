@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    height: 100vh;
+    background: url(./background.jpg) center/cover;
+    padding: 50px 5%;
+}
+
+.container{
+    position: relative;
+    height: 100%;
+    background: rgba(255,255,255,.1);
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 3%;
+    backdrop-filter: blur(30px);
+    
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 5%;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a{
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    border-bottom: 2px solid transparent ;
+
+}
+
+.navbar a:hover {
+    border-color: white;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 50px;
+    padding: 50px 5% 0;
+    color: white;
+
+}
+
+.home-detail h1{
+    font-size: 55px;
+}
+
+.home-detail h2{
+    font-size: 32px;
+}
+.home-detail p{
+    margin: 10px 0 20px;
+    font-size: 24px;
+}
+
+.download{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    
+}
+
+.button{
+    text-decoration: none;
+    background: white;
+    padding: 10px 30px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: 2px solid ;
+    transition: .5s;
+}
+
+.button:hover{
+    background: transparent;
+
+}
+.icons{
+    margin-left: 20px;
+}
+
+.icons a{
+    padding: 8px;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 50%;
+    font-size: 20px;
+    color: white;
+    margin: 0 8px;
+}
+
+.icons a:hover{
+    background: white;
+    color: black;
+}
+
+.img-box{
+    position: relative;
+    width: 28vw;
+    height: 28vw;
+    border: 2px solid white;
+    border-radius: 50%;
+    box-shadow: 0 0 20px white;
+    overflow: hidden;
+}
+
+img {
+    margin-left: 10px;
+    width: 100%;
+}
