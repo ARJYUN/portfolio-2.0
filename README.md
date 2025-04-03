@@ -10,6 +10,8 @@ The website provides a smooth user experience while maintaining a professional l
 
 ## 🔗 Live Demo
 https://arjyun.github.io/portfolio-2.0/
+![Screenshot 2025-04-03 191328](https://github.com/user-attachments/assets/221642ed-7256-4d0c-a4a8-344f9669f762)
+
 
 ## 💡 Future Enhancements
 - Improve responsiveness for mobile devices
