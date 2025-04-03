@@ -130,7 +130,7 @@ img {
     width: 100%;
 }
 
-.second{
+#second{
     margin-top: 30px;
     position: relative;
     height: 100%;
@@ -141,8 +141,8 @@ img {
 }
 
 .skill{
-    display: flex;
-    align-items: start;
+    margin-left: 650px;
+    justify-content: center;
     height: 100%;
     padding: 50px 5% 0;
     color: white;
@@ -155,5 +155,70 @@ img {
 
 .head{
     font-size: px;
-    margin-top: 200px;
+}
+
+.head li{
+   margin-top: 8px;
+}
+
+#third{
+    margin-top: 30px;
+    position: relative;
+    height: 100%;
+    background: rgba(255,255,255,.1);
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 3%;
+    backdrop-filter: blur(30px);
+}
+
+.ar{
+    font-size: 24px;
+}
+
+#fourth{
+    margin-top: 30px;
+    position: relative;
+    height: 100%;
+    background: rgba(255,255,255,.1);
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 3%;
+    backdrop-filter: blur(30px);
+}
+
+.title .ri-github-fill{
+    color: white;
+}
+
+#fifth{
+    margin-top: 30px;
+    position: relative;
+    height: 100%;
+    background: rgba(255,255,255,.1);
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 3%;
+    backdrop-filter: blur(30px);
+}
+
+.head p {
+    font-size: 25px;
+}
+
+.last{
+    align-items: start;
+    font-size: 30px;
+}
+
+#last{
+    margin-top: 30px;
+    position: relative;
+    height: 50%;
+    background: rgba(255,255,255,.1);
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 3%;
+    backdrop-filter: blur(30px);
+}
+
+.lt{
+    color: white;
+    margin-left: 100px;
 }
